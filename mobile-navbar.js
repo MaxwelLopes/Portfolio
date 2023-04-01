@@ -19,12 +19,6 @@ class MobileNavbar{
     handleClick(){
         this.navList.classList.toggle(this.activeClass);
         this.animateLinks();
-
-        if (this.navList.classList.contains(this.activeClass)) {
-            this.navList.style.display = "flex";
-          } else {
-            this.navList.style.display = "none";
-        }
     }
     
     addClickEvent() {

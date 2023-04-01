@@ -44,7 +44,7 @@ header nav{
 
 .nav-list{
     list-style: none;
-    display: none;
+    display: flex;
 }
 
 .nav-list li{
@@ -54,6 +54,7 @@ header nav{
 
 .mobile-menu{
     cursor: pointer;
+    transform: translate(90%);
 }
 
 .mobile-menu div{
@@ -82,7 +83,7 @@ nav.mobile-menu{
     .header-container{
         background-image: url(img/backgroungG.png);
         background-image: no-repeat;
-        background-size: contain;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -93,27 +94,22 @@ nav.mobile-menu{
     }
   }
   
-
 @media (max-width: 767px){
     body{
         overflow-x: hidden;
     }
+    .header-container div a{
+        padding: 0.5rem 2rem;
+    }
+
     .header-container {
-        margin: 0 auto; 
+        background-size: cover;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center; 
         box-sizing: border-box;
-       
-        justify-content: normal;
       }
-      .mobile-img img{
-        max-width: 30%;
-        height: 30%;
-        display: block;
-        margin: auto;
-      }
+      
     
       
       .mobile-img img{
@@ -153,6 +149,7 @@ nav.mobile-menu{
     background-color: var(--cor4);
     color: var(--cor3);
     font-family: var(--font-texto);
+    font-size: 15px;
 }
 
 .social-media{
