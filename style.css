@@ -44,7 +44,7 @@ header nav{
 
 .nav-list{
     list-style: none;
-    display: flex;
+    display: none;
 }
 
 .nav-list li{
