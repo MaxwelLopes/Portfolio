@@ -99,8 +99,8 @@ nav.mobile-menu{
         overflow-x: hidden;
     }
     .header-container {
+        overflow-x: hidden;
         margin: 0 auto; 
-        
         display: flex;
         flex-direction: column;
         justify-content: center;
