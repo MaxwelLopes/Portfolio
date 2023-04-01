@@ -72,7 +72,7 @@ nav.mobile-menu{
     height: 8vh;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
     .mobile-menu {
       display: none;
     }
@@ -94,7 +94,7 @@ nav.mobile-menu{
   }
   
 
-@media (max-width: 999px){
+@media (max-width: 767px){
     body{
         overflow-x: hidden;
     }
