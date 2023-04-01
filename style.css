@@ -76,8 +76,11 @@ nav.mobile-menu{
     .mobile-menu {
       display: none;
     }
+    .mobile-img{
+        display: none;
+    }
     .header-container{
-        background-image: url(img/backgroung.png);
+        background-image: url(img/backgroungG.png);
         background-image: no-repeat;
         background-size: contain;
         display: flex;
@@ -95,6 +98,32 @@ nav.mobile-menu{
     body{
         overflow-x: hidden;
     }
+    .header-container {
+        margin: 0 auto; /* centraliza horizontalmente */
+        max-width: 100%; /* define a largura máxima para 100% do viewport */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* centraliza verticalmente */
+        box-sizing: border-box;
+       
+        justify-content: normal;
+      }
+      .mobile-img img{
+        max-width: 60%;
+        height: auto;
+        display: block;
+        margin: auto;
+      }
+    
+      
+      .mobile-img img{
+        max-width: 60%;
+        height: auto;
+        display: block;
+        margin: auto;
+      }
+
     .nav-list{
         position: absolute;
         top: 8vh;
