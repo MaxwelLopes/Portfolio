@@ -95,7 +95,7 @@ nav.mobile-menu{
   }
   
 @media (max-width: 767px){
-    body{
+    .overflow{
         overflow-x: hidden;
         position: relative;
     }
