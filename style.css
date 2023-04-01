@@ -95,7 +95,7 @@ nav.mobile-menu{
   }
   
 @media (max-width: 767px){
-    body{
+    body, html{
         overflow-x: hidden;
     }
     .header-container div a{
