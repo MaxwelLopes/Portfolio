@@ -99,19 +99,19 @@ nav.mobile-menu{
         overflow-x: hidden;
     }
     .header-container {
-        margin: 0 auto; /* centraliza horizontalmente */
-        max-width: 100%; /* define a largura máxima para 100% do viewport */
+        margin: 0 auto; 
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center; /* centraliza verticalmente */
+        align-items: center; 
         box-sizing: border-box;
        
         justify-content: normal;
       }
       .mobile-img img{
-        max-width: 60%;
-        height: auto;
+        max-width: 30%;
+        height: 30%;
         display: block;
         margin: auto;
       }
@@ -140,10 +140,10 @@ nav.mobile-menu{
     .nav-list li{
         margin-left: 0;
     }
-}
 
-.nav-list.active{
-    transform: translateX(0);
+    .nav-list.active{
+        transform: translateX(0);
+    }
 }
 
 .header-container{
@@ -187,6 +187,3 @@ nav.mobile-menu{
 .redes-socias a img:hover{
     transform: scale(1.2);
 }
-
-
- 
