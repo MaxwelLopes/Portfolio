@@ -160,8 +160,7 @@ nav.mobile-menu{
     }
 
     .inicio{
-        justify-content: center; 
-        height: 100vh;
+        padding-top: 60px;
         background-size: cover;
         display: flex;
         flex-direction: column;
