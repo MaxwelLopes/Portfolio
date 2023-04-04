@@ -179,7 +179,7 @@ nav.mobile-menu{
     top: 8vh;
     right: 0;
     width: 100%;
-    max-width: 20vw;
+    max-width: 30vw;
     height: 92vh;
     background-color: #131516;
     flex-direction: column;
@@ -208,7 +208,7 @@ nav.mobile-menu{
     }
 
     .sobre .sobre-conteudo{
-        margin: 0px 15px 10px 15px;
+        margin: 0px 15px 30px 15px;
     }
 
     .sobre .hab{
@@ -315,8 +315,6 @@ nav.mobile-menu{
 .hab li{
     list-style: none;
     margin: 20px 0;
-    padding: 10px;
-
 }
 
 .bar{
