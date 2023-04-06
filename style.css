@@ -252,10 +252,6 @@ nav.mobile-menu{
         margin: 20px;
     }
 
-    .projetos{
-        margin: 0px 15px 0px 15px;
-    }
-
     .projetos .projeto{  
         background-color: var(--cor0);
         border-radius: 10px;
