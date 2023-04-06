@@ -17,6 +17,7 @@
 } 
 body{
     background-color: var(--cor4);
+    font-size: 20px;
 }
 
 section {
@@ -24,7 +25,7 @@ section {
   }
 
 
-h1{
+h1, h2{
     font-family: var(--font-texto);
     color: var(--cor3);
 }
@@ -145,6 +146,32 @@ nav.mobile-menu{
     .sobre .sobre-conteudo p{
         font-size: 21px;
     }
+
+    .projetos{
+        padding: 112px;
+    }
+
+    .projetos .projeto{  
+        display: flex;
+        background-color: var(--cor0);
+        border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;      
+    }
+    .projetos .projeto .img-projeto{
+        margin: 20px;
+        width: 250px;
+        height: 150px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.22);
+        transition: .7s ease-in-out;
+    }
+    
+    .projeto .descricao{
+        flex: 1;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 767px){
@@ -214,6 +241,42 @@ nav.mobile-menu{
 
     .sobre .hab{
         margin: 0px 15px 0px 15px;
+    }
+
+    .projeto{
+        margin: 0px 15px 0px 15px;
+        align-items: center;
+    }
+
+    .projetos h1{
+        margin: 20px;
+    }
+
+    .projetos{
+        margin: 0px 15px 0px 15px;
+    }
+
+    .projetos .projeto{  
+        background-color: var(--cor0);
+        border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;      
+    }
+    .projetos .projeto .img-projeto{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 150px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.22);
+        transition: .7s ease-in-out;
+    }
+    
+    .projeto .descricao{
+        flex: 1;
+        padding: 10px;
     }
 
 }
@@ -408,14 +471,19 @@ nav.mobile-menu{
     }
 }
 
-.projetos{
-    display: none;
-    flex-direction: column;
+.projetos .projeto h2{
+    font-size: 20px;
 }
 
-.projetos div{
-    margin: 112px;
-    width: 40%;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.22);
+.projeto .descricao p{
+    margin-top: 10px;
+    text-align: justify;
+}
+.projetos img{
+    width: 250px;
+    height: 150px
 }
 
+.projetos .projeto .img-projeto:hover{
+    transform: scale(1.05);
+}
