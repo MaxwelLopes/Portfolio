@@ -18,6 +18,6 @@ Aqui estão alguns dos meus projetos que destaco:
 
 - Email: maxwel.batalha8@gmail.com
 - LinkedIn: [Maxwel Batalha](https://www.linkedin.com/in/maxwel-batalha-b976b8254/)
-
+- Instagram: [@lps.maxx](https://www.instagram.com/lps.maxx/)
 
  
