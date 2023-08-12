@@ -1,10 +1,11 @@
 <h1 align="center">Meu Portfólio</h1>
 
 <p align="center">
-  <em>Explorando minha jornada na Ciência da Computação através de projetos e trabalhos.</em><br>
+  <em>Explorando minha jornada na Ciência da Computação através de projetos e trabalhos.</em>
+</p>
+<p>
   Visite o portfólio clicando [aqui](https://maxwellopes.github.io/Portfolio/).
 </p>
-
 ## Sobre Mim
 
 Olá! Sou Max, estudante de Ciência da Computação, e este é o meu repositório de portfólio. Aqui, você encontrará uma variedade de projetos que desenvolvi ao longo do meu percurso acadêmico e durante meu aprendizado autodidata. Meu objetivo é demonstrar meu conhecimento, habilidades e paixão pela programação através desses projetos.
