@@ -2,7 +2,7 @@
 
 <p align="center">
   <em>Explorando minha jornada na Ciência da Computação através de projetos e trabalhos.</em><br>
-  Visite o portfólio clicando [aqui](https://maxwellopes.github.io/Portfolio/).
+  Visite o portfólio clicando (aqui)[https://maxwellopes.github.io/Portfolio/].
 </p>
 
 ## Sobre Mim
