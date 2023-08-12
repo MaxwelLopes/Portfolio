@@ -1,8 +1,8 @@
 <h1 align="center">Meu Portfólio</h1>
 
 <p align="center">
-  <em>Uma coleção dos meus projetos e trabalhos como estudante de Ciência da Computação.</em>
-  Visite o portfólio em: [https://maxwellopes.github.io/Portfolio/](https://maxwellopes.github.io/Portfolio/)
+  <em>Explorando minha jornada na Ciência da Computação através de projetos e trabalhos.</em><br>
+  Visite o portfólio clicando [aqui](https://maxwellopes.github.io/Portfolio/).
 </p>
 
 ## Sobre Mim
